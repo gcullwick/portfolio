@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, sans-serif;
 }
 
+p {
+  font-family: Lato, sans-serif;
+}
+
 
 
 body {
@@ -44,7 +48,29 @@ header li{
   padding: 0 2rem;
 }
 
+main {
+  display: flex;
+  margin-top: 3rem;
+  width: 80%;
+  padding:2rem 2rem 3rem 3rem;
+  align-items: center;
+}
 
+h3 {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+#overview p {
+  line-height: 2.0rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+main img {
+  border-radius: 50%;
+  max-height: 500px;
+}
 
 
 
